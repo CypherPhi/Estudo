@@ -7,3 +7,17 @@
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
 }
+
+//importar outros css dentro do css
+@import url("styles/header.css");
+
+//Regra do Postion Absolute
+Ele ira funcionar de acordo com o elemento pai que nao seja static
+.cabecalho {
+    position: relative;
+}
+
+.lista-menu {
+    position: absolute;
+    top: 100%;
+}
