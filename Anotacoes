@@ -1,0 +1,31 @@
+Ter o NODE.js instalado
+instalar VUE CLI
+
+//Diretivas Condicionais
+--Esconde o componente do HTML
+v-show
+
+--Retira o componente do HTML
+v-if
+v-else-if
+v-else
+
+//Repetiçao
+v-for (v-bbind:key="obj.id" serve para identificar o obj)
+<div v-for="obj in todos" v-bind:key="obj.id">
+    {{ obj.title }}
+  </div>
+
+//atributo dinamico
+faz o atributo aceitar variaveis
+v-bind:atributo="valor" ou
+:atributo="valor"
+
+<img v-bind:src="enderecoimg" v-bind:alt="imgAlt">
+:class="{'title': false}
+
+//alteraçao de variavel
+v-model (v-model="nome") recebe e altera o valor da variavel
+
+//eventos
+v-on:click="funcao" ou @click="funcao"
