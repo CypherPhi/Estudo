@@ -21,3 +21,6 @@ Ele ira funcionar de acordo com o elemento pai que nao seja static
     position: absolute;
     top: 100%;
 }
+
+//tipos de fonte
+rem = 1rem = 16px
