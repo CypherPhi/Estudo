@@ -1,0 +1,41 @@
+root = true
+
+
+
+
+# Aplicar regras a todos os arquivos
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+
+
+
+# Específico para arquivos TypeScript
+[*.ts]
+indent_size = 2
+
+
+
+
+[*.tsx]
+indent_size = 2
+
+
+# Configuração específica para arquivos Markdown
+[*.md]
+max_line_length = off   # Desativa a regra de comprimento máximo de linha
+trim_trailing_whitespace = false  # Mantém espaços em branco no final das linhas
+
+
+
+
+# Configuração específica para arquivos JSON
+[*.json]
+indent_size = 4  # Usa indentação de 4 espaços para arquivos JSON
+
+

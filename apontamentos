@@ -1,2 +1,7 @@
 //iniciar react
 npm init vite@latest
+//ou	
+npx create-react-app portfolio --template typescript
+
+npx eslint --init
+npm i --save-dev eslint-plugin-react-hooks
